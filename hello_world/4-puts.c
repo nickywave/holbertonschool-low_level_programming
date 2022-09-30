@@ -1,8 +1,9 @@
 #include <stdio.h>
-
 /**
- *   puts - print text out
+ * main-entry point of the program where the execution begins
+ * return -function returns when it completes
  */
+
 
 int main(void)
 {
