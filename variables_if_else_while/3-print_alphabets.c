@@ -3,10 +3,10 @@
 int main () {
    char ch;
 
-   for(ch = 'A' ; ch <= 'K' ; ch++) {
+   for(ch = 'a' ; ch <= 'z' ; ch++) {
       putchar(ch);
    }
-   for(ch = 'l'; ch <= 'z' ; ch++) {
+   for(ch = 'A'; ch <= 'Z' ; ch++) {
            putchar(ch);
    }
    return(0);
