@@ -6,16 +6,17 @@
  *
  *Return: Always 0 (Success)
  *
- */
+ **/
 
- int main(void)
- {
-// Get the character to be written
-    char ch = '0';
-  
-    // Write the Character to stdout
-    for (ch = '0'; ch <= '9'; ch++)
-        putchar(ch);
-    
-     return(0);
- }
+int main(void)
+
+{
+	char ch = '0';
+
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
+}
