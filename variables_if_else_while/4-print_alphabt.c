@@ -5,17 +5,17 @@
  *
  * Return: Always 0 (Success)
  *
- */
+ **/
 
-int main () 
+int main(void)
+
 {
-   char ch;
+	char ch;
 
-   if (ch !='q' && ch !='e') 
-   for(ch = 'a' ; ch <= 'z' ; ch++)
-   {
-   putchar(ch);
-   }
-
-   return(0);
+	if (ch != 'q' && ch != 'e')
+		for (ch = 'a' ; ch <= 'z' ; ch++)
+		{
+			putchar(ch);
+		}
+	return (0);
 }
